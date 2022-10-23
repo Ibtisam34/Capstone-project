@@ -113,7 +113,8 @@ h3 {
 }
 
 .program {
-  background-image: url(./images/program-bg.png);
+  background-image: 
+  url(./images/program-bg.png); 
   height: 110vh;
 }
 
@@ -179,6 +180,7 @@ h3 {
   .mobile-navbar {
     display: none;
   }
+
   .homepage {
     height: 100%;
     background: rgba(0, 0, 0, 0.85) url(./images/jimin1.png);
@@ -261,16 +263,15 @@ h3 {
     color: white;
     margin-left: 1%;
   }
-
-  #detail {
+  #detail {  
     color: #fff;
     font-size: 30px;
-    text-align: center;
+     text-align: center;
 }
 
-    .program {
-      height: 60vh;
-    }
+.program {
+   height: 60vh;
+   }
 
     #services-title {
       padding-top: 2%;
@@ -296,3 +297,4 @@ h3 {
     }
 
     }
+  
