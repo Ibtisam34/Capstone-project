@@ -1,234 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Website concert</title>
-  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/d86848cfe0.js"></script>
-</head>
-<body>
-  <header>
-    <!--navbars-->
-    <div class="navbar">
-      <nav class="nav-menu">
-          <ul class="nav-lists">
-            <li class="nav-list">
-              <a class="nav-link" href="#">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-            </li>
-            <li class="nav-list">
-              <a class="nav-link" href="#">
-                <i class="fab fa-twitter"></i>
-              </a>
-            </li>
-            <li class="nav-list">
-              <a class="nav-link" href="#">
-                English
-              </a>
-            </li>
-            <li class="nav-list">
-              <a class="nav-link" href="#">
-                My Page
-              </a>
-            </li>
-            <li class="nav-list">
-              <a class="nav-link" href="#">
-                Logout
-              </a>
-            </li>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>website concert</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d86848cfe0.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+ <section class="homepage">
+  <nav class="mobile-navbar">
+      <div class="nav-logo">
+          <div id="hamburger">
+              <i class="fa fa-bars"></i>
+          </div>
+          <div class="logo">
+            <a href="index.html"></a>
+            <img class="img-logo" src="./images/riana.png" alt="Logo">
+          </div>
+      </div>
+      <div class="mobile-menu hide" id="mobile-menu-id">
+          <button id="cross">
+              <i class="fa-solid fa-x"></i>
+          </button>
+          <nav class="menu-list">
+              <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="#services-id">Our Services</a></li>
+                  <li><a href="#team-id">Team Members</a></li>
+                  <li><a href="#team-id">Sponser</a></li>
+              </ul>
+          </nav>
+      </div>
+  </nav>
+  <div class="nav-top">
+      <div class="desktop-nav-list" id="nav-top-list">
+          <ul>
+              <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href=""><i class="fab fa-twitter"></i></a></li>
+              <li><a href="">English</a></li>
+              <li><a href=""> My Page</a></li>
           </ul>
-      </nav>
-      <nav class="nav-links">
-          <a class="my logo" href="./index.html">
-            <figure class="nav-logo">
-              <img class="img-logo" src="https://m.media-amazon.com/images/I/31BmabzvV6L._SY450_.jpg" alt="Logo">
-            </figure>
-          </a>
-          <ul class="nav-links">
-            <li class="nav-item">
-              <a class="nav-link " href="./index.html">
-                Home
-              </a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link" href="./about.html">
-                About
-              </a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link" href="./tickets.html">
-                program
-              </a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link" href="#">
-                Join
-              </a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link" href="#">
-                Sponsor
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                News
-              </a>
-            </li>
+      </div>
+  </div>
+  <div class="desktop-navbar">
+      <div class="logo">
+          <img src="./images/riana.png" alt="logo-image">
+      </div>
+      <div class="desktop-nav-list">
+          <ul>
+              <li><a href="about.html"> Home</a></li>
+              <li><a href="#services-id">About</a></li>
+              <li><a href="#team-id">program</a></li>
+              <li><a href="#team-id"> Sponsor</a></li>
+              <li><a href="#team-id"> News</a></li>
           </ul>
-      </nav>
-    </div>
-  </header>
-  <section class="Headline">
-    <div class="row">
-      <!--bars for small screens-->
-      <div class="hamburger-menu">
-        <i class="fas fa-bars"></i>
       </div>
-      <!-- Collapsible content -->
-      <div class="navbar-collapse" id="collapse1">
-        <!-- Links -->
-        <ul class="nav-bar">
-          <li class="nav-item ">
-            <a class="nav-link " href="./index.html">
-              Home
+  </div>
+  </nav>
+  <div class="welcome">
+    <h3 class="text">"Hello how are you!"</h3>
+    <h1 class="text">Concert King's Jimin</h1>
+  </div>
+  <div class="welcome-description">
+    <p class="welcome-text">
+       Stage King' Jimin wows fans and netizens with his exhilarating dance,
+       vocals and visuals after BTS's Busan concert
+    </p>
+  </div>
+  <div class="event-date">
+    <h2 class="fan-text">Be fan now</h2>
+    <p class="fan-p">@ BTS, The world rocking <strong>boys</strong></p>
+  </div>
+</div>
+</section>
+    </header>
+        <section class="program">
+          <h2 id="services-title">Main songs on stage</h2>
+          <div id="redline"></div>
+          <div class="service-cards">
+          <div class="card">
+              <img src="./images/permission.png" class="card-images" alt="">
+              <h3 id="program-title"> Permission to dance</h3>
+              <p> you can watch the recorded concert on bts main channel.</p>
+          </div>
+          <div class="card">
+              <img src="./images/bts-fire.png" class="card-images" alt="">
+              <h3 id="program-title"> fire</h3>
+              <p>you can watch the recorded concert on bts main channel.</p>
+          </div>
+          <div class="card">
+              <img src="./images/dynimate.png" class="card-images" alt="">
+              <h3 id="program-title"> Dynamite</h3>
+              <p>you can watch the recorded concert on bts main channel.</p>
+          </div>
+          <div class="card">
+              <img src="./images/butter.png" class="card-images" alt="">
+              <h3 id="program-title"> Butter </h3>
+              <p> you can watch the recorded concert on bts main channel.</p>
+          </div>
+          <div class="card">
+              <img src="./images/fake love .png" class="card-images" alt="">
+              <h3 id="program-title"> Fake love</h3>
+              <p>  you can watch the recorded concert on bts main channel.</p>
+          </div>
+      </div>
+      <div id="view-prog-div">
+          <a id="view-program" href=""> To View full concert &gt;</a>
+            <a id="view-program" href="#" class="text-white ">
+              Join BTS main channel
             </a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="./about.html">
-              About
-            </a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="./tickets.html">
-             program
-            </a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="#">
-              Join
-            </a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="#">
-              Sponsor
-            </a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="#">
-              News
-            </a>
-          </li>
-        </ul>
-        <!-- Links -->
       </div>
-      <!-- Collapsible content -->
-      <div class="welcome">
-        <h3 class="text">"Hello how are you!"</h3>
-        <h1 class="">Concert King's Jimin</h1>
-      </div>
-
-      <div class="welcome-description">
-        <p class="welcome-text">
-          Concert King' Jimin's fancams are go viral on TikTok and 
-          Twitter for his impeccable performance
-           and ethereal visuals following BTS's #YetToComeinBusan concert
-        </p>
-        <img src="https://www.allkpop.com/upload/2022/10/content/191022/1666189368-image.png" alt="">
-      </div>
-
-      <div class="event-date">
-        <h2 class="fan-text">Be fan now</h2>
-        <p>@ BTS, The world rocking boys</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="concert-program">
-    <div class="program">
-      <div class="text-concert">
-        <h3 class="title-concert">Main songs on stage</h3>
-        <hr class="hr-title">
-      </div>
-    </div>
-    <div class="center-program">
-      <div class="program1">
-        <div class="program-bar">
-          <div class="concert-img">
-            <i class="fas fa-chalkboard-teacher"></i>
-          </div>
-          <div class="concert1">
-            Permission to dance
-          </div>
-          <div class="concert-text">
-            you can watch the recorded concert on bts main channel
-            <img src="https://img.buzzfeed.com/buzzfeed-static/static/2021-08/6/12/asset/5d9697927b4c/sub-buzz-1609-1628253250-3.png?downsize=1600%3A%2A&output-quality=auto&output-format=auto" alt="">
-          </div>
-        </div>
-      </div>
-      <div class="program2">
-        <div class="program-bar">
-          <div class="concert-img2">
-            <i class="fas fa-chalkboard-teacher "></i>
-          </div>
-          <div class="concert1">
-            fire
-          </div>
-          <div class="concert-text">
-            you can watch the recorded concert on bts main channel
-            <img src="https://thebiaslistcom.files.wordpress.com/2016/05/bts-fire.jpg" alt="">
-          </div>
-        </div>
-      </div>
-      <div class="program3">
-        <div class="program-bar">
-          <div class="concert-im2">
-            <i class="far fa-comments"></i>
-          </div>
-          <div class="concert1">
-            Dynamite
-          </div>
-          <div class="concert-text">
-            you can watch the recorded concert on bts main channel
-            <img src="https://i.ytimg.com/vi/gdZLi9oWNZg/maxresdefault.jpg" alt="">
-          </div>
-        </div>
-      </div>
-      <div class="program4">
-        <div class="program-bar">
-          <div class="concert-im3">
-            <i class="fas fa-laptop "></i>
-          </div>
-          <div class="concert1">
-            Butter
-          </div>
-          <div class="concert-text">
-            you can watch the recorded concert on bts main channel
-            <img src="https://i.ytimg.com/vi/DbXMjAYSa68/maxresdefault.jpg" alt="">
-          </div>
-        </div>
-      </div>
-      <div class="program5">
-        <div class="program-bar">
-          <div class="concert-im4">
-            <i class="fas fa-atom "></i>
-          </div>
-          <div class="concert1">
-            Fake love
-          </div>
-          <div class="concert-text">
-            you can watch the recorded concert on bts main channel
-            <img src="https://i.ytimg.com/vi/i4JGSpVBEJU/maxresdefault.jpg" alt="">
-          </div>
-        </div>
-      </div>
-          </div>
-        </div>
-      </div>
-    </section>
-</body>
-</body>
+      </section>
+  </body>
 </html>
