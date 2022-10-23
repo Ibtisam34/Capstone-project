@@ -4,6 +4,7 @@
   font-family: Cocogoose;
   src: url('../assets/fonts/cocogoose/Cocogoose Pro-trial.ttf');
 }
+
 body {
   font-family: 'Lato', sans-serif;
 }
@@ -29,8 +30,7 @@ h3 {
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
   -webkit-font-smoothing: antialiased;
-  left:uppercase;
-  font-weight:bold;
+  font-weight: bold;
 }
 
 .nav-logo {
@@ -49,6 +49,7 @@ h3 {
   margin-left: 5%;
   font-size: 25px;
 }
+
 .mobile-menu {
   background-color: rgb(39, 42, 50);
   height: 100vh;
@@ -88,6 +89,7 @@ h3 {
   background: transparent;
   border: none;
 }
+
 .show {
   display: block;
 }
@@ -99,6 +101,7 @@ h3 {
 .nav-top {
   display: none;
 }
+
 .welcome-text {
   font-weight: bold;
   font-size: 20px;
@@ -172,8 +175,8 @@ h3 {
   color: #fff;
   text-decoration: none;
 }
-@media screen and (min-width: 768px) {
 
+@media screen and (min-width: 768px) {
   .mobile-navbar {
     display: none;
   }
@@ -191,6 +194,7 @@ h3 {
     width: 100%;
     margin-bottom: 0;
   }
+
   .desktop-nav-list a {
     color: rgb(192, 43, 43);
     text-decoration: none;
@@ -204,6 +208,10 @@ h3 {
     padding: 0;
     margin-right: 0;
     overflow-wrap: inherit;
+  }
+
+  a:hover {
+    color: #ec5242;
   }
 
   #nav-top-list a {
@@ -232,31 +240,30 @@ h3 {
     width: 100%;
   }
 
+  a {
+    cursor: pointer;
+  }
+
+  a:active {
+    color: #ec5242;
+  }
   .desktop-nav-list li {
     display: inline;
     list-style-type: none;
   }
+
   .welcome-text {
     color: white;
     margin-left: 1%;
   }
+
   .event-date {
     color: white;
     margin-left: 1%;
   }
-  a {
-    cursor: pointer;
-  }
-  
-  a:hover {
-    color: #ec5242;
-  }
-  
-  a:active {
-    color: #ec5242;
-  }
+
   #detail {
-    color: #fff;
+    color:  #fff;
     font-size: 30px;
     text-align: center;
 }
