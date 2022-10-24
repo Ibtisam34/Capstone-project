@@ -190,6 +190,7 @@ h3 {
     background: rgba(0, 0, 0, 0.85) url(./images/concert.png);
     background-size: cover;
     background-blend-mode: darken;
+    margin-bottom: auto;
   }
 
   .nav-top {
@@ -277,10 +278,9 @@ h3 {
     margin-left: 1%;
   }
 
-  
-
   .program {
-    height: 60vh;
+    height: 60%;
+    margin-top: 0;
   }
 
   #services-title {
@@ -305,5 +305,10 @@ h3 {
     padding-top: 10px;
     text-align: center;
   }
+}
+#view-prog-div {
+  margin-left: 40%;
+  margin-top: 10%;
+  font-size: 18px;
 }
 
