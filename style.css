@@ -113,13 +113,12 @@ h3 {
 }
 
 .program {
-  background-image: 
-  url(./images/program-bg.png); 
+  background-image: url(./images/program-bg.png);
   height: 110vh;
 }
 
 #services-title {
-  color: #fff; 
+  color: #fff;
   font-family: lato, sans-serif;
   text-align: center;
   padding-top: 15%;
@@ -263,38 +262,37 @@ h3 {
     color: white;
     margin-left: 1%;
   }
-  #detail {  
+
+  #detail {
     color: #fff;
     font-size: 30px;
-     text-align: center;
+    text-align: center;
+  }
+
+  .program {
+    height: 60vh;
+  }
+
+  #services-title {
+    padding-top: 2%;
+    font-size: 30px;
+  }
+
+  .service-cards {
+    padding-top: 2%;
+    flex-direction: row;
+    column-gap: 35px;
+    margin-left: 14%;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 180px;
+    height: 180px;
+    gap: 2px;
+    padding-top: 10px;
+    text-align: center;
+  }
 }
-
-.program {
-   height: 60vh;
-   }
-
-    #services-title {
-      padding-top: 2%;
-      font-size: 30px;
-    } 
-
-    .service-cards {
-      padding-top: 2%;
-      flex-direction: row;
-      column-gap: 35px;
-      margin-left: 14%;
-    }
-
-    .card {
-      display: flex;
-      flex-direction: column;
-      justify-items: center;
-      width: 180px;
-      height: 180px;
-      gap: 2px;
-      padding-top: 10px;
-      text-align: center;
-    }
-
-    }
-  
