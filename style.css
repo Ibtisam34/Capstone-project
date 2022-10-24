@@ -100,11 +100,12 @@ h3 {
 .nav-top {
   display: none;
 }
-
+ 
 .welcome-text {
   font-weight: bold;
   font-size: 20px;
-  color: red;
+  color: rgb(56, 34, 34);
+  
 }
 
 #detail {
@@ -122,6 +123,7 @@ h3 {
   font-family: lato, sans-serif;
   text-align: center;
   padding-top: 15%;
+  margin-top: 1%;
 }
 
 #redline {
@@ -176,20 +178,23 @@ h3 {
 }
 
 @media screen and (min-width: 768px) {
+  .img-logo {
+    margin-left: 10%;
+  }
   .mobile-navbar {
     display: none;
   }
 
   .homepage {
     height: 100%;
-    background: rgba(0, 0, 0, 0.85) url(./images/jimin1.png);
+    background: rgba(0, 0, 0, 0.85) url(./images/concert.png);
     background-size: cover;
     background-blend-mode: darken;
   }
 
   .nav-top {
     display: block;
-    background-color: rgb(62, 62, 62);
+    background-color: rgb(27, 23, 23);
     height: 3.5%;
     width: 100%;
     margin-bottom: 0;
@@ -252,9 +257,18 @@ h3 {
     display: inline;
     list-style-type: none;
   }
+  .welcome-description {
+    border-style:solid;
+    color: #fff;
+    background-color:white;
+    height: 50%px;
+    width: 50%;
+    opacity: 0.4;
+    margin-left: 1%;
+  }
 
   .welcome-text {
-    color: white;
+    color: black;
     margin-left: 1%;
   }
 
@@ -263,11 +277,7 @@ h3 {
     margin-left: 1%;
   }
 
-  #detail {
-    color: #fff;
-    font-size: 30px;
-    text-align: center;
-  }
+  
 
   .program {
     height: 60vh;
@@ -296,3 +306,4 @@ h3 {
     text-align: center;
   }
 }
+
