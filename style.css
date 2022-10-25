@@ -100,12 +100,10 @@ h3 {
 .nav-top {
   display: none;
 }
- 
+
 .welcome-text {
   font-weight: bold;
   font-size: 20px;
-
-  
 }
 
 #detail {
@@ -167,7 +165,7 @@ h3 {
 }
 
 #view-prog-div {
-  margin-left: 50%;
+  margin-left: 40%;
   margin-top: 10%;
   font-size: 18px;
 }
@@ -177,12 +175,75 @@ h3 {
   text-decoration: none;
 }
 
+.about-page {
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6) url(./images/light.png);
+  background-size: cover;
+  background-blend-mode: soft-light;
+}
+
+.fan {
+  color: black;
+}
+
+.songs {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.songs-heading {
+  font-size: 35px;
+  color: #393b3f;
+  text-align: center;
+}
+
+#about-song {
+  font-size: 20px;
+}
+
+.album {
+  display: grid;
+  grid-template-rows: auto auto;
+}
+
+.song-img {
+  width: 318px;
+  height: 159px;
+  margin-left: 6%;
+}
+
+.song-detail {
+  color: #393b3f;
+  text-align: center;
+}
+
+.partners {
+  display: none;
+}
+
+.footer {
+  display: none;
+}
+
+.footer,
+.footer-about {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .img-logo {
     margin-left: 10%;
   }
+
   .mobile-navbar {
     display: none;
+  }
+
+  .homepage {
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85) url(./images/concert.png);
+    background-size: cover;
+    background-blend-mode: darken;
   }
 
   .nav-top {
@@ -250,11 +311,12 @@ h3 {
     display: inline;
     list-style-type: none;
   }
+
   .welcome-description {
-    border-style:solid;
+    border-style: solid;
     color: #fff;
-    background-color:white;
-    height: 50%px;
+    background-color: white;
+    height: 50%;
     width: 50%;
     opacity: 0.4;
     margin-left: 1%;
@@ -298,3 +360,61 @@ h3 {
     text-align: center;
   }
 
+  /* About Page CSS */
+  .about-page {
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85) url(./images/jimin.png);
+  }
+
+  .songs {
+    height: 70%;
+    width: 100%;
+  }
+
+  .songs-heading {
+    font-size: 40px;
+    margin-top: 3%;
+  }
+
+  #about-song {
+    font-size: 25px;
+  }
+
+  .album {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 70%;
+    margin-left: 19%;
+    margin-top: 5%;
+    column-gap: 10px;
+  }
+
+  .song-img {
+    width: 100%;
+    height: 80%;
+  }
+
+  .footer-about {
+    display: flex;
+    background-color: #393b3f;
+    width: 100%;
+  }
+
+  .footer-logo-about {
+    margin-left: 30%;
+    margin-top: 0.2%;
+  }
+
+  .footer-description-about {
+    color: #fff;
+    margin-left: 5%;
+    font-size: 25px;
+    margin-top: 1%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  /* About Section CSS ends */
+
+  /* Desktop CSS ends here */
+}
